@@ -1,0 +1,98 @@
+{
+  "Rippling": {
+    "url": "https://www.rippling.com/en-GB/careers/open-roles",
+    "atsType": "nextjs",
+    "slug": null,
+    "note": "Auto-detection flagged this as Ashby, but Rippling hosts careers on their own Next.js page."
+  },
+  "Hex": {
+    "url": "https://hex.tech/careers/",
+    "atsType": "gatsby",
+    "slug": null,
+    "note": "Auto-detection flagged this as Ashby, but Hex uses a Gatsby-built careers site."
+  },
+  "Loom": {
+    "url": null,
+    "atsType": "acquired",
+    "slug": null,
+    "note": "Loom was acquired by Atlassian in 2023. No separate job board exists — check atlassian.com/careers if interested."
+  },
+  "Retool": {
+    "url": "https://retool.com/careers",
+    "atsType": "client-side",
+    "slug": null,
+    "note": "Retool's careers page loads jobs via JavaScript only. Manual check required."
+  },
+  "Okta / Auth0": {
+    "url": "https://www.okta.com/company/careers/",
+    "atsType": "greenhouse",
+    "slug": "okta",
+    "note": "Okta acquired Auth0 in 2021. All jobs are now on Okta's Greenhouse board."
+  },
+  "Boomi": {
+    "url": "https://boards.greenhouse.io/boomilp",
+    "atsType": "greenhouse",
+    "slug": "boomilp",
+    "note": "Boomi uses Greenhouse but their slug is 'boomilp' (not 'boomi')."
+  },
+  "Chargebee": {
+    "url": "https://jobs.chargebee.com/",
+    "atsType": "client-side",
+    "slug": null,
+    "note": "Chargebee hosts jobs on a custom subdomain (jobs.chargebee.com). Requires manual check or Firecrawl."
+  },
+  "Freshdesk": {
+    "url": "https://careers.smartrecruiters.com/freshworks",
+    "atsType": "client-side",
+    "slug": null,
+    "note": "Freshdesk is a product by Freshworks. All hiring is via SmartRecruiters at careers.smartrecruiters.com/freshworks."
+  },
+  "Jotform": {
+    "url": "https://www.jotform.com/jobs/",
+    "atsType": "client-side",
+    "slug": null,
+    "note": "Jotform hosts their own careers page with JavaScript-rendered listings. Requires manual check."
+  },
+  "BrowserStack": {
+    "url": "https://browserstack.wd3.myworkdayjobs.com/External",
+    "atsType": "workday",
+    "slug": null,
+    "note": "BrowserStack uses Workday. URL updated from their main site to the actual Workday job board."
+  },
+  "Zoho": {
+    "url": "https://careers.zohocorp.com/jobs/careers",
+    "atsType": "client-side",
+    "slug": null,
+    "note": "Zoho uses their own ZohoRecruit platform. Requires manual check."
+  },
+  "SailPoint": {
+    "url": "https://sailpoint.wd1.myworkdayjobs.com/SailPoint",
+    "atsType": "workday",
+    "slug": null,
+    "note": "SailPoint uses Workday. URL is the direct Workday job board."
+  },
+  "DocuSign": {
+    "url": "https://careers.docusign.com/",
+    "atsType": "client-side",
+    "slug": null,
+    "note": "DocuSign hosts jobs on their own careers site. Requires manual check."
+  },
+  "InVideo": {
+    "url": "https://invideo.io/careers",
+    "atsType": "client-side",
+    "slug": null,
+    "note": "InVideo's careers page loads jobs via JavaScript only. Requires manual check."
+  },
+  "Shopify": {
+    "url": "https://www.shopify.com/careers",
+    "atsType": "client-side",
+    "slug": null,
+    "note": "Shopify uses a custom careers portal. Requires manual check."
+  },
+  "Hasura": {
+    "url": "https://hasura.io/careers/",
+    "atsType": "client-side",
+    "slug": null,
+    "note": "Hasura (now PromptQL) uses their own careers page. EXA previously returned wrong URLs (Supabase's Ashby board) for this company."
+  }
+}

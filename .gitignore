@@ -1,0 +1,18 @@
+# API keys and secrets — NEVER commit these
+.env
+service_account.json
+
+# Personal job criteria (use criteria.example.md as a template)
+criteria.md
+
+# Node modules
+node_modules/
+
+# Output reports (optional — remove this line if you want to track reports in git)
+output/
+
+# Mac metadata
+.DS_Store
+
+# Claude Code internal settings
+.claude/
