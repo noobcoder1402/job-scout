@@ -6,10 +6,11 @@ _Snapshot of current state. Updated after every session with code changes. Writt
 
 ## Current Status
 
-✅ Full pipeline working end-to-end (Sheets → scrape → match → write back).  
-✅ Google Sheets two-way integration complete.  
-✅ EXA fallback working for unknown companies.  
-✅ `custom_urls.json` has 16 company overrides to bypass broken ATS detection.  
+✅ Full pipeline working end-to-end (Sheets → scrape → match → write back).
+✅ Google Sheets two-way integration complete.
+✅ EXA fallback working for unknown companies.
+✅ `custom_urls.json` has 16 company overrides to bypass broken ATS detection.
+✅ Public GitHub repo live at https://github.com/noobcoder1402/job-scout.
 ⚠️ 11 companies permanently "Skipped" — use Workday/SmartRecruiters/custom JS pages that can't be scraped. Manual checks required (see table below).
 
 ---
@@ -43,6 +44,7 @@ These live in `index.js` — listed here so the next session doesn't need to hun
 
 - The Hasura bogus rows (Supabase jobs mislabeled as Hasura) from the first run may still need manual cleanup in the "Job Matches" tab. Look for rows where Company = "Hasura" but job URLs link to `jobs.ashbyhq.com/supabase/...` — delete those rows.
 - Consider raising `MAX_JOBS_TO_SEND_TO_AI` above 50 for companies with large boards (e.g. Salesforce, HubSpot) if matches feel thin.
+- GitHub repo is public. `criteria.md` is git-ignored — any future changes to it stay local. If you update code, remember to push: `git add . && git commit -m "description" && git push`.
 
 ---
 

@@ -45,12 +45,14 @@ files/
 ├── CLAUDE.md                  ← you are here
 ├── context.md                 ← live project state (updated each session)
 ├── companies.txt              ← fallback company list (used with --no-sheets)
-├── criteria.md                ← what kinds of roles to match
+├── criteria.md                ← what kinds of roles to match (git-ignored; use criteria.example.md as template)
+├── criteria.example.md        ← template for criteria.md
 ├── custom_urls.json           ← manual URL overrides for non-standard career pages
 ├── package.json
 ├── .env                       ← API keys + Google Sheet ID (never commit)
 ├── service_account.json       ← Google auth credentials (never commit)
 ├── .gitignore
+├── README.md                  ← public-facing project overview (for GitHub)
 ├── index.js                   ← main orchestrator
 ├── sheetsClient.js            ← Google Sheets read/write wrapper
 ├── setupSheets.js             ← one-time setup: creates the two tabs and headers
